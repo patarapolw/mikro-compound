@@ -1,0 +1,20 @@
+{
+  "name": "mikro-compound",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Pacharapol Withayasakpunt <polv@polv.cc>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@mikro-orm/core": "^4.0.3",
+    "@mikro-orm/reflection": "^4.0.3",
+    "@mikro-orm/sqlite": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
